@@ -1,0 +1,27 @@
+.header {
+    border-bottom: 1px solid var(--mainBorder);
+    background-color: var(--headerBackground);
+    padding: 5px;
+    color: var(--headerText);
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.navList {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navLink {
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--navLinkText);
+}
+
+.navLink:hover {
+    color: var(--navLinkTextHover);
+}
+

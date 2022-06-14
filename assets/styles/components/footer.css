@@ -1,0 +1,12 @@
+.footer {
+    border-top: 1px solid var(--mainBorder);
+    background-color: var(--headerBackground);
+    padding: 5px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.footerIcons {
+    height: 30px;
+}

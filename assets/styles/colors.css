@@ -1,0 +1,6 @@
+:root {
+    --mainBorder: #30363d;
+    --navLinkText: rgba(255,255,255,0.7);
+    --navLinkTextHover: white;
+    --headerBackground: #161B22;
+}
