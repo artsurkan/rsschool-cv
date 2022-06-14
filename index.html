@@ -1,13 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/styles/index.css">
 </head>
+
 <body>
-    HTML, CSS & Git Basics
+    <header class="header">
+        <nav>
+            <ul class="navList">
+                <li><a class="navLink" href="#contacts">Contacts</a></li>
+                <li><a class="navLink" href="#about">About</a></li>
+                <li><a class="navLink" href="#skills">Skills</a></li>
+                <li><a class="navLink" href="#code">Code</a></li>
+                <li><a class="navLink" href="#experience">Experience</a></li>
+                <li><a class="navLink" href="#education">Education</a></li>
+                <li><a class="navLink" href="#languages">Languages</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="flexSection">
+            <div>
+                <h1>Artyom Tsurkan</h1>
+                <a class="anchor" id="contacts"></a>
+                <section>
+                    <h2>Contacts:</h2>
+                    <ul>
+                        <li><a class="contactLink" href="https://github.com/artsurkan">GitHub</a></li>
+                        <li><a class="contactLink" href="https://www.linkedin.com/in/artsurkan/">LinkedIn</a></li>
+                    </ul>
+                </section>
+            </div>
+            <img class="avatar" src="./assets/images/avatar.jpg" alt="github logo">
+        </section>
+
+        <a class="anchor" id="about"></a>
+        <section>
+            <h2>About Myself:</h2>
+            <p>
+                Fullstack JS developer with a focus on cutting-edge web engineering solutions with a high level of
+                automation and versatility.
+            </p>
+        </section>
+
+        <a class="anchor" id="skills"></a>
+        <section>
+            <h2>Skills:</h2>
+            <p>React.js, Node.js, PostgreSQL, MongoDB, Docker, GIT</p>
+        </section>
+
+        <a class="anchor" id="code"></a>
+        <section>
+            <h2>Code:</h2>
+            <pre>
+            function reverseString(string) {
+                return string.split('').reverse().join('');
+            }
+            </pre>
+        </section>
+
+        <section>
+            <a class="anchor" id="experience"></a>
+            <h2>Experience:</h2>
+            <ul>
+                <li>- integration with external web services</li>
+                <li>- automation internal app service tasks with CronJobs</li>
+                <li>- UI/UX redesign for a client portal</li>
+                <li>- writing API tests</li>
+                <li>- splitting WebSocket connections for different rooms</li>
+                <li>- implementing chats</li>
+                <li>- implementing customizable graphic and UI for different businesses</li>
+                <li>- refactoring of an old codebase</li>
+            </ul>
+        </section>
+
+        <section>
+            <a class="anchor" id="education"></a>
+            <h2>Education:</h2>
+            <ul>
+                <li>Web Development School of Business and Management of Technology of Belarusian State University Minsk, Belarus</li>
+            </ul>
+        </section>
+
+        <section>
+            <a class="anchor" id="languages"></a>
+            <h2>Languages:</h2>
+            <ul>
+                <li>Russian: native</li>
+                <li>English: A2 (intermediate written, but rusty spoken)</li>
+            </ul>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <ul class="navList">
+            <li>
+                <a href="https://github.com/artsurkan">
+                    <img class="footerIcons" src="./assets/images/github.svg" alt="github logo">
+                </a>
+            </li>
+            <li>2022</li>
+            <li>
+                <a href="https://rs.school/js/">
+                    <img class="footerIcons" src="./assets/images/rs_school_js.svg" alt="rsschool logo">
+                </a>
+            </li>
+        </ul>
+    </footer>
 </body>
+
 </html>
