@@ -23,3 +23,6 @@ function reverseString(string){
 - refactoring of an old codebase
 ## Education
 - <b>Web Development</b> <font color="gray">School of Business and Management of Technology of Belarusian State University</font> Minsk, Belarus
+## Languages
+- Russian: native
+- English: A2 (intermediate written, but rusty spoken)
